@@ -1,0 +1,130 @@
+Parent = Material3'Content/Resources/UI/UI_Main_01.UI_Main_01'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Details_U_Speed }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Speed U }
+        ParameterValue = -0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Details_Tex }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Sweep_Tex }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=UI_Tex_01 }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex_Mask }
+        ParameterValue = None
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Details_Color }
+        ParameterValue = { R=50, G=9.89245, B=35.0358, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.442602, G=0.247112, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use_Details }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Wrap&Clamp Switch }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Tex mask }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[2] =
+    {
+        StaticComponentMaskParameters[0] =
+        {
+            R = false
+            G = false
+            B = true
+            A = false
+            ParameterInfo = { Name=RGBMask }
+            bOverride = true
+        }
+        StaticComponentMaskParameters[1] =
+        {
+            R = true
+            G = false
+            B = false
+            A = false
+            ParameterInfo = { Name=RGB_Mask }
+            bOverride = true
+        }
+    }
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
