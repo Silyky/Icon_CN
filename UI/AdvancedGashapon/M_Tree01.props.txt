@@ -3,7 +3,7 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Resources/UI/AdvancedGashapon/UI_tree_01.UI_tree_01'
+    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/AdvancedGashapon/UI_tree_01.UI_tree_01'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -24,7 +24,7 @@ CachedExpressionData =
     }
     ReferencedTextures[1] =
     {
-        ReferencedTextures[0] = Texture2D'Content/Resources/UI/AdvancedGashapon/UI_tree_01.UI_tree_01'
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/AdvancedGashapon/UI_tree_01.UI_tree_01'
     }
 }
 BlendMode = BLEND_Translucent (2)

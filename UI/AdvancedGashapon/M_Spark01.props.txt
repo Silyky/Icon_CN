@@ -3,7 +3,7 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Resources/UI/AdvancedGashapon/UI_spark01.UI_spark01'
+    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/AdvancedGashapon/UI_spark01.UI_spark01'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -55,7 +55,7 @@ CachedExpressionData =
     }
     ReferencedTextures[3] =
     {
-        ReferencedTextures[0] = Texture2D'Content/Resources/UI/AdvancedGashapon/UI_spark01.UI_spark01'
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/AdvancedGashapon/UI_spark01.UI_spark01'
     }
 }
 BlendMode = BLEND_Additive (3)

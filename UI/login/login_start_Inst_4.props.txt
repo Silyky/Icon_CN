@@ -1,4 +1,4 @@
-Parent = Material3'Content/Resources/UI/UI_Main_01.UI_Main_01'
+Parent = None
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
@@ -25,7 +25,7 @@ TextureParameterValues[4] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Details_Tex }
-        ParameterValue = None
+        ParameterValue = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask_sc_005.T_Mask_sc_005'
         ParameterName = None
     }
     TextureParameterValues[1] =
