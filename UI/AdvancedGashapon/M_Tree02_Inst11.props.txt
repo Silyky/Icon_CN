@@ -25,7 +25,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Base_tex }
-        ParameterValue = Texture2D'/Game/Resources/UI/AdvancedGashapon/NewYear/UI_JCHZ_Button5.UI_JCHZ_Button5'
+        ParameterValue = Texture2D'Content/Resources/UI/AdvancedGashapon/NewYear/UI_JCHZ_Button5.UI_JCHZ_Button5'
         ParameterName = None
     }
 }

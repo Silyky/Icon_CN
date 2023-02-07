@@ -25,7 +25,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_Tex }
-        ParameterValue = Texture2D'/Game/Resources/UI/TreasureMap/seabedsignal_bg.seabedsignal_bg'
+        ParameterValue = Texture2D'Content/Resources/UI/TreasureMap/seabedsignal_bg.seabedsignal_bg'
         ParameterName = None
     }
 }

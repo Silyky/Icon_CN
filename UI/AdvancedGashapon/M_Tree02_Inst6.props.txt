@@ -31,7 +31,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Base_tex }
-        ParameterValue = Texture2D'/Game/Resources/UI/AdvancedGashapon/FON/UI_XYYQ_Button3.UI_XYYQ_Button3'
+        ParameterValue = Texture2D'Content/Resources/UI/AdvancedGashapon/FON/UI_XYYQ_Button3.UI_XYYQ_Button3'
         ParameterName = None
     }
 }

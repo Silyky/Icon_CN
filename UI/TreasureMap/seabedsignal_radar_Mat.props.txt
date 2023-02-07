@@ -3,10 +3,10 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[4] =
 {
-    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/TreasureMap/redar_point_01.redar_point_01'
-    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/TreasureMap/seabedsignal_radar.seabedsignal_radar'
-    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/TreasureMap/seabedsignal_radar01.seabedsignal_radar01'
-    ReferencedTextures[3] = Texture2D'/Game/Resources/UI/TreasureMap/seabedsignal_radar_bg.seabedsignal_radar_bg'
+    ReferencedTextures[0] = Texture2D'Content/Resources/UI/TreasureMap/redar_point_01.redar_point_01'
+    ReferencedTextures[1] = Texture2D'Content/Resources/UI/TreasureMap/seabedsignal_radar.seabedsignal_radar'
+    ReferencedTextures[2] = Texture2D'Content/Resources/UI/TreasureMap/seabedsignal_radar01.seabedsignal_radar01'
+    ReferencedTextures[3] = Texture2D'Content/Resources/UI/TreasureMap/seabedsignal_radar_bg.seabedsignal_radar_bg'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -27,10 +27,10 @@ CachedExpressionData =
     }
     ReferencedTextures[4] =
     {
-        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/TreasureMap/seabedsignal_radar.seabedsignal_radar'
-        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/TreasureMap/seabedsignal_radar_bg.seabedsignal_radar_bg'
-        ReferencedTextures[2] = Texture2D'/Game/Resources/UI/TreasureMap/redar_point_01.redar_point_01'
-        ReferencedTextures[3] = Texture2D'/Game/Resources/UI/TreasureMap/seabedsignal_radar01.seabedsignal_radar01'
+        ReferencedTextures[0] = Texture2D'Content/Resources/UI/TreasureMap/seabedsignal_radar.seabedsignal_radar'
+        ReferencedTextures[1] = Texture2D'Content/Resources/UI/TreasureMap/seabedsignal_radar_bg.seabedsignal_radar_bg'
+        ReferencedTextures[2] = Texture2D'Content/Resources/UI/TreasureMap/redar_point_01.redar_point_01'
+        ReferencedTextures[3] = Texture2D'Content/Resources/UI/TreasureMap/seabedsignal_radar01.seabedsignal_radar01'
     }
 }
 BlendMode = BLEND_Additive (3)

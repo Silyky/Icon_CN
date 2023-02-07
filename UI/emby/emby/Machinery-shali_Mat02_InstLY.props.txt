@@ -13,13 +13,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_TEX }
-        ParameterValue = Texture2D'/Game/Resources/UI/emby/UI_EMBY_di_03.UI_EMBY_di_03'
+        ParameterValue = Texture2D'Content/Resources/UI/emby/UI_EMBY_di_03.UI_EMBY_di_03'
         ParameterName = None
     }
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=UI_TEX_MSAK }
-        ParameterValue = Texture2D'/Game/Resources/UI/emby/emby/Machinery-shali_toufa3.Machinery-shali_toufa3'
+        ParameterValue = Texture2D'Content/Resources/UI/emby/emby/Machinery-shali_toufa3.Machinery-shali_toufa3'
         ParameterName = None
     }
 }

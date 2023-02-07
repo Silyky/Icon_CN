@@ -3,8 +3,8 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[2] =
 {
-    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
-    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
+    ReferencedTextures[0] = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
+    ReferencedTextures[1] = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -30,14 +30,14 @@ CachedExpressionData =
         VectorValues[0] = {}
         TextureValues[2] =
         {
-            TextureValues[0] = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
-            TextureValues[1] = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
+            TextureValues[0] = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
+            TextureValues[1] = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
         }
     }
     ReferencedTextures[3] =
     {
-        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
-        ReferencedTextures[2] = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
+        ReferencedTextures[0] = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
+        ReferencedTextures[2] = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
     }
 }
 BlendMode = BLEND_Translucent (2)
@@ -46,13 +46,13 @@ CollectedTextureParameters[2] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
+        Texture = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/tongdao/UI_JCNH_Bkg_toufa.UI_JCNH_Bkg_toufa'
         Name = UI_TEX_MSAK
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'/Game/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
+        Texture = Texture2D'Content/Resources/UI/Activity/SeriesActivityBase/UI_JCNH_Bkg_00.UI_JCNH_Bkg_00'
         Name = UI_TEX
         Group = None
     }

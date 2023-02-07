@@ -1,4 +1,4 @@
-Parent = Material3'/Game/Resources/UI/AdvancedGashapon/Wumi/M_Ui001.M_Ui001'
+Parent = Material3'Content/Resources/UI/AdvancedGashapon/Wumi/M_Ui001.M_Ui001'
 ScalarParameterValues[1] =
 {
     ScalarParameterValues[0] =
@@ -13,7 +13,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Base_tex }
-        ParameterValue = Texture2D'/Game/Resources/UI/AdvancedGashapon/ALS/UI_BKHD_Button_02.UI_BKHD_Button_02'
+        ParameterValue = Texture2D'Content/Resources/UI/AdvancedGashapon/ALS/UI_BKHD_Button_02.UI_BKHD_Button_02'
         ParameterName = None
     }
 }

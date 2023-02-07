@@ -1,4 +1,4 @@
-Parent = Material3'/Game/Resources/UI/main/skill_button/shengqidi_CD_Mat.shengqidi_CD_Mat'
+Parent = Material3'Content/Resources/UI/main/skill_button/shengqidi_CD_Mat.shengqidi_CD_Mat'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =

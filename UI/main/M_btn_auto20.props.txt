@@ -49,7 +49,7 @@ TextureParameterValues[3] =
     TextureParameterValues[2] =
     {
         ParameterInfo = { Name=UI_Tex }
-        ParameterValue = Texture2D'/Game/Resources/UI/AdvancedGashapon/ALS/UI_BKHD_zi.UI_BKHD_zi'
+        ParameterValue = Texture2D'Content/Resources/UI/AdvancedGashapon/ALS/UI_BKHD_zi.UI_BKHD_zi'
         ParameterName = None
     }
 }

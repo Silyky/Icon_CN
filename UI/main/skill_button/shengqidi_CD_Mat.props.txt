@@ -1,11 +1,9 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[3] =
+ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Tiles034.T_Tiles034'
-    ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Tiles034N.T_Tiles034N'
-    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/main/skill_button/shengqidi_CD.shengqidi_CD'
+    ReferencedTextures[0] = Texture2D'Content/Resources/UI/main/skill_button/shengqidi_CD.shengqidi_CD'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -33,9 +31,7 @@ CachedExpressionData =
     }
     ReferencedTextures[4] =
     {
-        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/main/skill_button/shengqidi_CD.shengqidi_CD'
-        ReferencedTextures[2] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Tiles034.T_Tiles034'
-        ReferencedTextures[3] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Tiles034N.T_Tiles034N'
+        ReferencedTextures[0] = Texture2D'Content/Resources/UI/main/skill_button/shengqidi_CD.shengqidi_CD'
     }
 }
 BlendMode = BLEND_Translucent (2)

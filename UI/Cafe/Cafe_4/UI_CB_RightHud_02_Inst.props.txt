@@ -13,7 +13,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_Tex }
-        ParameterValue = Texture2D'/Game/Resources/UI/Cafe/Cafe_4/UI_CB_RightHud_02.UI_CB_RightHud_02'
+        ParameterValue = Texture2D'Content/Resources/UI/Cafe/Cafe_4/UI_CB_RightHud_02.UI_CB_RightHud_02'
         ParameterName = None
     }
 }

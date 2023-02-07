@@ -49,7 +49,7 @@ TextureParameterValues[3] =
     TextureParameterValues[2] =
     {
         ParameterInfo = { Name=UI_Tex }
-        ParameterValue = Texture2D'/Game/Resources/UI/emby/UI_biaoti.UI_biaoti'
+        ParameterValue = Texture2D'Content/Resources/UI/emby/UI_biaoti.UI_biaoti'
         ParameterName = None
     }
 }
