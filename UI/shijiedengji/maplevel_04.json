@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "maplevel_04",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 78,
+        "Y": 21
+      },
+      "LightingGuid": "4D8A8312-4CE014CA-0DAE1F85-0E361F8E",
+      "LODGroup": "TEXTUREGROUP_UI",
+      "NeverStream": true
+    },
+    "SizeX": 78,
+    "SizeY": 21,
+    "PackedData": 1,
+    "PixelFormat": "PF_B8G8R8A8",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 6552,
+          "SizeOnDisk": 6552,
+          "OffsetInFile": "0x2288"
+        },
+        "SizeX": 78,
+        "SizeY": 21,
+        "SizeZ": 1
+      }
+    ]
+  }
+]
