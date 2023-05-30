@@ -1,4 +1,4 @@
-Parent = None
+Parent = Material3'/Game/Resources/Effect/Materials/UI/Cards/M_Cards_001.M_Cards_001'
 ScalarParameterValues[6] =
 {
     ScalarParameterValues[0] =
