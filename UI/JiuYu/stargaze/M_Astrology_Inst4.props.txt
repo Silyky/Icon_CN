@@ -1,4 +1,4 @@
-Parent = Material3'/Game/Resources/UI/JiuYu/stargaze/M_Astrology.M_Astrology'
+Parent = None
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
