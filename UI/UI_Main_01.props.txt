@@ -3,7 +3,7 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Resources/UI/Recover/huoli_.huoli_'
+    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/Recover/huoli_.huoli_'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -14,7 +14,7 @@ CachedExpressionData =
         {
             Entries[0] =
             {
-                ParameterInfos[45] =
+                ParameterInfos[46] =
                 {
                     ParameterInfos[0] = { Name=Rongjie_power }
                     ParameterInfos[1] = { Name=Float Range }
@@ -47,20 +47,21 @@ CachedExpressionData =
                     ParameterInfos[28] = { Name=Side mask Power(L&R) }
                     ParameterInfos[29] = { Name=Side mask Power(U&D) }
                     ParameterInfos[30] = { Name=OpacityPower }
-                    ParameterInfos[31] = { Name=Mosaic Power }
-                    ParameterInfos[32] = { Name=U }
-                    ParameterInfos[33] = { Name=Mip_Level }
-                    ParameterInfos[34] = { Name=Circular_Mask }
-                    ParameterInfos[35] = { Name=Appear random }
-                    ParameterInfos[36] = { Name=Circular_Size }
-                    ParameterInfos[37] = { Name=Sweep Wide }
-                    ParameterInfos[38] = { Name=Details_U_Speed }
-                    ParameterInfos[39] = { Name=Speed V }
-                    ParameterInfos[40] = { Name=Speed }
-                    ParameterInfos[41] = { Name=V }
-                    ParameterInfos[42] = { Name=Line_Contrast }
-                    ParameterInfos[43] = { Name=Line_Breath }
-                    ParameterInfos[44] = { Name=PowerTex }
+                    ParameterInfos[31] = { Name=Sweep Interval(0_1) }
+                    ParameterInfos[32] = { Name=Mosaic Power }
+                    ParameterInfos[33] = { Name=U }
+                    ParameterInfos[34] = { Name=Mip_Level }
+                    ParameterInfos[35] = { Name=Circular_Mask }
+                    ParameterInfos[36] = { Name=Appear random }
+                    ParameterInfos[37] = { Name=Circular_Size }
+                    ParameterInfos[38] = { Name=Sweep Wide }
+                    ParameterInfos[39] = { Name=Details_U_Speed }
+                    ParameterInfos[40] = { Name=Speed V }
+                    ParameterInfos[41] = { Name=Speed }
+                    ParameterInfos[42] = { Name=V }
+                    ParameterInfos[43] = { Name=Line_Contrast }
+                    ParameterInfos[44] = { Name=Line_Breath }
+                    ParameterInfos[45] = { Name=PowerTex }
                 }
             }
             Entries[1] =
@@ -87,7 +88,7 @@ CachedExpressionData =
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        ScalarValues[45] =
+        ScalarValues[46] =
         {
             ScalarValues[0] = 50
             ScalarValues[1] = 5
@@ -120,20 +121,21 @@ CachedExpressionData =
             ScalarValues[28] = 3
             ScalarValues[29] = 3
             ScalarValues[30] = 2
-            ScalarValues[31] = 0
-            ScalarValues[32] = 2
-            ScalarValues[33] = -1
-            ScalarValues[34] = -0.01
-            ScalarValues[35] = 1.5
-            ScalarValues[36] = 1
-            ScalarValues[37] = 0.9
-            ScalarValues[38] = -1
-            ScalarValues[39] = 0
-            ScalarValues[40] = 1
-            ScalarValues[41] = 4
-            ScalarValues[42] = 0.1
-            ScalarValues[43] = 0
-            ScalarValues[44] = 1
+            ScalarValues[31] = 0.75
+            ScalarValues[32] = 0
+            ScalarValues[33] = 2
+            ScalarValues[34] = -1
+            ScalarValues[35] = -0.01
+            ScalarValues[36] = 1.5
+            ScalarValues[37] = 1
+            ScalarValues[38] = 0.9
+            ScalarValues[39] = -1
+            ScalarValues[40] = 0
+            ScalarValues[41] = 1
+            ScalarValues[42] = 4
+            ScalarValues[43] = 0.1
+            ScalarValues[44] = 0
+            ScalarValues[45] = 1
         }
         VectorValues[5] =
         {
@@ -145,12 +147,12 @@ CachedExpressionData =
         }
         TextureValues[4] =
         {
-            TextureValues[1] = Texture2D'Content/Resources/UI/Recover/huoli_.huoli_'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/Recover/huoli_.huoli_'
         }
     }
     ReferencedTextures[10] =
     {
-        ReferencedTextures[8] = Texture2D'Content/Resources/UI/Recover/huoli_.huoli_'
+        ReferencedTextures[8] = Texture2D'/Game/Resources/UI/Recover/huoli_.huoli_'
     }
 }
 BlendMode = BLEND_Translucent (2)
@@ -160,14 +162,14 @@ CollectedTextureParameters[4] =
     CollectedTextureParameters[0] = { Texture=None, Name=Sweep_Tex, Group=None }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Resources/UI/Recover/huoli_.huoli_'
+        Texture = Texture2D'/Game/Resources/UI/Recover/huoli_.huoli_'
         Name = Tex_Mask
         Group = None
     }
     CollectedTextureParameters[2] = { Texture=None, Name=UI_Tex_01, Group=None }
     CollectedTextureParameters[3] = { Texture=None, Name=Details_Tex, Group=None }
 }
-CollectedScalarParameters[45] =
+CollectedScalarParameters[46] =
 {
     CollectedScalarParameters[0] = { Value=50, Name=Rongjie_power, Group=None }
     CollectedScalarParameters[1] = { Value=5, Name=Float Range, Group=None }
@@ -205,20 +207,21 @@ CollectedScalarParameters[45] =
     CollectedScalarParameters[28] = { Value=3, Name=Side mask Power(L&R), Group=None }
     CollectedScalarParameters[29] = { Value=3, Name=Side mask Power(U&D), Group=None }
     CollectedScalarParameters[30] = { Value=2, Name=OpacityPower, Group=None }
-    CollectedScalarParameters[31] = { Value=0, Name=Mosaic Power, Group=None }
-    CollectedScalarParameters[32] = { Value=2, Name=U, Group=None }
-    CollectedScalarParameters[33] = { Value=-1, Name=Mip_Level, Group=None }
-    CollectedScalarParameters[34] = { Value=-0.01, Name=Circular_Mask, Group=None }
-    CollectedScalarParameters[35] = { Value=1.5, Name=Appear random, Group=None }
-    CollectedScalarParameters[36] = { Value=1, Name=Circular_Size, Group=None }
-    CollectedScalarParameters[37] = { Value=0.9, Name=Sweep Wide, Group=None }
-    CollectedScalarParameters[38] = { Value=-1, Name=Details_U_Speed, Group=None }
-    CollectedScalarParameters[39] = { Value=0, Name=Speed V, Group=None }
-    CollectedScalarParameters[40] = { Value=1, Name=Speed, Group=None }
-    CollectedScalarParameters[41] = { Value=4, Name=V, Group=None }
-    CollectedScalarParameters[42] = { Value=0.1, Name=Line_Contrast, Group=None }
-    CollectedScalarParameters[43] = { Value=0, Name=Line_Breath, Group=None }
-    CollectedScalarParameters[44] = { Value=1, Name=PowerTex, Group=None }
+    CollectedScalarParameters[31] = { Value=0.75, Name=Sweep Interval(0_1), Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=Mosaic Power, Group=None }
+    CollectedScalarParameters[33] = { Value=2, Name=U, Group=None }
+    CollectedScalarParameters[34] = { Value=-1, Name=Mip_Level, Group=None }
+    CollectedScalarParameters[35] = { Value=-0.01, Name=Circular_Mask, Group=None }
+    CollectedScalarParameters[36] = { Value=1.5, Name=Appear random, Group=None }
+    CollectedScalarParameters[37] = { Value=1, Name=Circular_Size, Group=None }
+    CollectedScalarParameters[38] = { Value=0.9, Name=Sweep Wide, Group=None }
+    CollectedScalarParameters[39] = { Value=-1, Name=Details_U_Speed, Group=None }
+    CollectedScalarParameters[40] = { Value=0, Name=Speed V, Group=None }
+    CollectedScalarParameters[41] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[42] = { Value=4, Name=V, Group=None }
+    CollectedScalarParameters[43] = { Value=0.1, Name=Line_Contrast, Group=None }
+    CollectedScalarParameters[44] = { Value=0, Name=Line_Breath, Group=None }
+    CollectedScalarParameters[45] = { Value=1, Name=PowerTex, Group=None }
 }
 CollectedVectorParameters[5] =
 {
