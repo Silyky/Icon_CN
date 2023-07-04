@@ -1,4 +1,4 @@
-Parent = Material3'/Game/Resources/UI/UI_Main_01.UI_Main_01'
+Parent = None
 ScalarParameterValues[2] =
 {
     ScalarParameterValues[0] =
