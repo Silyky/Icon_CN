@@ -1,0 +1,168 @@
+Parent = Material3'/Game/Resources/Icon/chat/Animated_Qipao/Animated_01/M_ChatBox.M_ChatBox'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=NoiseIntensity001 }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=NoiseIntensity002 }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=NoiseIntensity003 }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=NoiseIntensity004 }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tex00 }
+        ParameterValue = Texture2D'/Game/Resources/Icon/chat/Animated_Qipao/Animated_01/Animated_Qipao05.Animated_Qipao05'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tex01 }
+        ParameterValue = Texture2D'/Game/Resources/Icon/chat/Animated_Qipao/Animated_01/Animated_Qipao03.Animated_Qipao03'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NoiseMap002 }
+        ParameterValue = Texture2D'/Game/Resources/Effect/Textures/Energy/T_Noise_006.T_Noise_006'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex02 }
+        ParameterValue = Texture2D'/Game/Resources/Icon/chat/Animated_Qipao/Animated_01/Animated_Qipao02.Animated_Qipao02'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=NoiseMap003 }
+        ParameterValue = Texture2D'/Game/Resources/Effect/Textures/Energy/T_Noise_006.T_Noise_006'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Tex03 }
+        ParameterValue = Texture2D'/Game/Resources/Icon/chat/Animated_Qipao/Animated_01/Animated_Qipao04.Animated_Qipao04'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Tex04 }
+        ParameterValue = Texture2D'/Game/Resources/Icon/chat/Animated_Qipao/Animated_01/Animated_Qipao01.Animated_Qipao01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[10] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=NoisePanner001 }
+        ParameterValue = { R=5, G=5, B=0, A=0.2 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tex01Speed }
+        ParameterValue = { R=0.1, G=-0.8, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=UV01 }
+        ParameterValue = { R=0.285714, G=-0.409524, B=0.157142, A=0.166666 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=NoisePanner002 }
+        ParameterValue = { R=0.1, G=1, B=-0.1, A=-0.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tex02Speed }
+        ParameterValue = { R=0.1, G=0, B=0.6, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=UV02 }
+        ParameterValue = { R=-0.361905, G=0.183246, B=0.3, A=0.3 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=NoisePanner003 }
+        ParameterValue = { R=3, G=1, B=-0.1, A=0.2 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=UV03 }
+        ParameterValue = { R=0.247621, G=0.220056, B=0.454762, A=0.633333 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=NoisePanner004 }
+        ParameterValue = { R=2, G=2, B=0.1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=UV04 }
+        ParameterValue = { R=-0.400001, G=-0.142856, B=0.236667, A=0.757144 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
