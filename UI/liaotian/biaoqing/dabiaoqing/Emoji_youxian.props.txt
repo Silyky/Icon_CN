@@ -1,4 +1,4 @@
-Parent = MaterialInstanceConstant'Content/Resources/UI/liaotian/biaoqing/dabiaoqing/Emoji_nihao.Emoji_nihao'
+Parent = MaterialInstanceConstant'/Game/Resources/UI/liaotian/biaoqing/dabiaoqing/Emoji_nihao.Emoji_nihao'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =

@@ -1,4 +1,4 @@
-Parent = Material3'Content/Resources/UI/UI_Main_01.UI_Main_01'
+Parent = Material3'/Game/Resources/UI/UI_Main_01.UI_Main_01'
 ScalarParameterValues[12] =
 {
     ScalarParameterValues[0] =
@@ -27,44 +27,44 @@ ScalarParameterValues[12] =
     }
     ScalarParameterValues[4] =
     {
-        ParameterInfo = { Name=Rotator }
-        ParameterValue = 0
-        ParameterName = None
-    }
-    ScalarParameterValues[5] =
-    {
-        ParameterInfo = { Name=Speed_V }
-        ParameterValue = 2
-        ParameterName = None
-    }
-    ScalarParameterValues[6] =
-    {
-        ParameterInfo = { Name=Sweep Wide }
-        ParameterValue = 0.95
-        ParameterName = None
-    }
-    ScalarParameterValues[7] =
-    {
         ParameterInfo = { Name=U }
         ParameterValue = 3
         ParameterName = None
     }
-    ScalarParameterValues[8] =
+    ScalarParameterValues[5] =
     {
         ParameterInfo = { Name=V }
         ParameterValue = 2
         ParameterName = None
     }
-    ScalarParameterValues[9] =
+    ScalarParameterValues[6] =
     {
         ParameterInfo = { Name=Mosaic Power }
         ParameterValue = 0.005
         ParameterName = None
     }
-    ScalarParameterValues[10] =
+    ScalarParameterValues[7] =
     {
         ParameterInfo = { Name=UV_Scale }
         ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Rotator }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Speed_V }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Sweep Wide }
+        ParameterValue = 0.95
         ParameterName = None
     }
     ScalarParameterValues[11] =
@@ -74,24 +74,18 @@ ScalarParameterValues[12] =
         ParameterName = None
     }
 }
-TextureParameterValues[3] =
+TextureParameterValues[2] =
 {
     TextureParameterValues[0] =
     {
-        ParameterInfo = { Name=Details_Tex }
+        ParameterInfo = { Name=UI_Tex_01 }
         ParameterValue = None
         ParameterName = None
     }
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=Sweep_Tex }
-        ParameterValue = Texture2D'Content/Resources/UI/reward_1/reward_Common.reward_Common'
-        ParameterName = None
-    }
-    TextureParameterValues[2] =
-    {
-        ParameterInfo = { Name=UI_Tex_01 }
-        ParameterValue = Texture2D'Content/Resources/UI/reward_1/reward_Common.reward_Common'
+        ParameterValue = None
         ParameterName = None
     }
 }

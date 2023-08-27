@@ -1,4 +1,4 @@
-Parent = None
+Parent = MaterialInstanceConstant'/Game/Resources/UI/liaotian/biaoqing/dabiaoqing/Emoji_kongju.Emoji_kongju'
 ScalarParameterValues[4] =
 {
     ScalarParameterValues[0] =

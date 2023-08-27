@@ -3,7 +3,7 @@ bDisableDepthTest = false
 bIsMasked = false
 ReferencedTextures[1] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Resources/UI/AdvancedGashapon/Gothic/Gothic009.Gothic009'
+    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/AdvancedGashapon/LingHan/UI_SHSX_Button3.UI_SHSX_Button3'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -30,9 +30,10 @@ CachedExpressionData =
             }
             Entries[2] =
             {
-                ParameterInfos[1] =
+                ParameterInfos[2] =
                 {
                     ParameterInfos[0] = { Name=Base_tex }
+                    ParameterInfos[1] = { Name=BaseTex02 }
                 }
             }
             Entries[3] = { ParameterInfos[0]={} }
@@ -43,24 +44,25 @@ CachedExpressionData =
         {
             VectorValues[0] = { R=2, G=2, B=0.04, A=0.25 }
         }
-        TextureValues[1] =
+        TextureValues[2] =
         {
-            TextureValues[0] = Texture2D'Content/Resources/UI/AdvancedGashapon/Gothic/Gothic009.Gothic009'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/AdvancedGashapon/LingHan/UI_SHSX_Button3.UI_SHSX_Button3'
         }
     }
-    ReferencedTextures[1] =
+    ReferencedTextures[2] =
     {
-        ReferencedTextures[0] = Texture2D'Content/Resources/UI/AdvancedGashapon/Gothic/Gothic009.Gothic009'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/AdvancedGashapon/LingHan/UI_SHSX_Button3.UI_SHSX_Button3'
     }
 }
 BlendMode = BLEND_Translucent (2)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[1] =
+CollectedTextureParameters[2] =
 {
-    CollectedTextureParameters[0] =
+    CollectedTextureParameters[0] = { Texture=None, Name=Base_tex, Group=None }
+    CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Resources/UI/AdvancedGashapon/Gothic/Gothic009.Gothic009'
-        Name = Base_tex
+        Texture = Texture2D'/Game/Resources/UI/AdvancedGashapon/LingHan/UI_SHSX_Button3.UI_SHSX_Button3'
+        Name = BaseTex02
         Group = None
     }
 }

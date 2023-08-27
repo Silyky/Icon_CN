@@ -1,4 +1,4 @@
-Parent = None
+Parent = Material3'/Game/Resources/Effect/Materials/UI/Tips/M_UI_Tips_001.M_UI_Tips_001'
 ScalarParameterValues[5] =
 {
     ScalarParameterValues[0] =
@@ -37,7 +37,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_Tex }
-        ParameterValue = Texture2D'Content/Resources/UI/poker/T_feiji002.T_feiji002'
+        ParameterValue = None
         ParameterName = None
     }
 }

@@ -1,4 +1,4 @@
-Parent = None
+Parent = Material3'/Game/Resources/UI/AdvancedGashapon/M_Tree02.M_Tree02'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =

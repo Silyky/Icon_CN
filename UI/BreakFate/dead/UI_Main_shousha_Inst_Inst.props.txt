@@ -1,4 +1,4 @@
-Parent = MaterialInstanceConstant'Content/Resources/UI/BreakFate/dead/UI_Main_di_Inst.UI_Main_di_Inst'
+Parent = MaterialInstanceConstant'/Game/Resources/UI/BreakFate/dead/UI_Main_di_Inst.UI_Main_di_Inst'
 ScalarParameterValues[3] =
 {
     ScalarParameterValues[0] =
@@ -25,7 +25,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_Tex_01 }
-        ParameterValue = Texture2D'Content/Resources/UI/BreakFate/dead/UI_chiji_jisha_di.UI_chiji_jisha_di'
+        ParameterValue = None
         ParameterName = None
     }
 }

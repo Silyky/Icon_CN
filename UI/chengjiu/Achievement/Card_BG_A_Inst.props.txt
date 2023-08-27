@@ -1,4 +1,4 @@
-Parent = Material3'Content/Resources/UI/UI_Main_01.UI_Main_01'
+Parent = Material3'/Game/Resources/UI/UI_Main_01.UI_Main_01'
 ScalarParameterValues[4] =
 {
     ScalarParameterValues[0] =
@@ -31,13 +31,13 @@ TextureParameterValues[2] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_Tex_01 }
-        ParameterValue = Texture2D'Content/Resources/UI/chengjiu/Achievement/Card_BG_A.Card_BG_A'
+        ParameterValue = None
         ParameterName = None
     }
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=Tex_Mask }
-        ParameterValue = Texture2D'Content/Resources/UI/chengjiu/Achievement/Card_BG.Card_BG'
+        ParameterValue = None
         ParameterName = None
     }
 }

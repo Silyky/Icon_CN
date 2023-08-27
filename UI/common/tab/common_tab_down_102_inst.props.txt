@@ -1,10 +1,11 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'Content/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
-    ReferencedTextures[1] = Texture2D'Content/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/UI/Common/T_UI_Common_018.T_UI_Common_018'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -41,14 +42,16 @@ CachedExpressionData =
         VectorValues[0] = {}
         TextureValues[3] =
         {
-            TextureValues[0] = Texture2D'Content/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
-            TextureValues[1] = Texture2D'Content/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
+            TextureValues[0] = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
+            TextureValues[2] = Texture2D'/Game/Resources/Effect/Textures/UI/Common/T_UI_Common_018.T_UI_Common_018'
         }
     }
     ReferencedTextures[3] =
     {
-        ReferencedTextures[0] = Texture2D'Content/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
-        ReferencedTextures[1] = Texture2D'Content/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/Effect/Textures/UI/Common/T_UI_Common_018.T_UI_Common_018'
     }
 }
 BlendMode = BLEND_Translucent (2)
@@ -57,17 +60,22 @@ CollectedTextureParameters[3] =
 {
     CollectedTextureParameters[0] =
     {
-        Texture = Texture2D'Content/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
+        Texture = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_101.common_tab_down_101'
         Name = unchecked
         Group = None
     }
     CollectedTextureParameters[1] =
     {
-        Texture = Texture2D'Content/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
+        Texture = Texture2D'/Game/Resources/UI/common/tab/common_tab_down_102.common_tab_down_102'
         Name = checked
         Group = None
     }
-    CollectedTextureParameters[2] = { Texture=None, Name=Am_Mask_Tex, Group=None }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/UI/Common/T_UI_Common_018.T_UI_Common_018'
+        Name = Am_Mask_Tex
+        Group = None
+    }
 }
 CollectedScalarParameters[5] =
 {

@@ -1,4 +1,4 @@
-Parent = Material3'Content/Resources/UI/UI_Main_01.UI_Main_01'
+Parent = Material3'/Game/Resources/UI/UI_Main_01.UI_Main_01'
 ScalarParameterValues[8] =
 {
     ScalarParameterValues[0] =
@@ -55,13 +55,13 @@ TextureParameterValues[3] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Sweep_Tex }
-        ParameterValue = Texture2D'Content/Resources/UI/guild/answer/Guild_answer_timu_bg.Guild_answer_timu_bg'
+        ParameterValue = None
         ParameterName = None
     }
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=UI_Tex_01 }
-        ParameterValue = Texture2D'Content/Resources/UI/guild/answer/Guild_answer_timu_bg.Guild_answer_timu_bg'
+        ParameterValue = None
         ParameterName = None
     }
     TextureParameterValues[2] =
