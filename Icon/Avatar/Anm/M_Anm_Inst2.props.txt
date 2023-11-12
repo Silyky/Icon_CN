@@ -158,12 +158,12 @@ ScalarParameterValues[26] =
         ParameterName = None
     }
 }
-TextureParameterValues[6] =
+TextureParameterValues[4] =
 {
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Details_Tex }
-        ParameterValue = None
+        ParameterValue = Texture2D'/Game/Resources/Effect/Textures/Masks/T_EnergyA001m.T_EnergyA001m'
         ParameterName = None
     }
     TextureParameterValues[1] =
@@ -174,30 +174,18 @@ TextureParameterValues[6] =
     }
     TextureParameterValues[2] =
     {
-        ParameterInfo = { Name=Details_Mask02 }
-        ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_MaskIcon002a.T_MaskIcon002a'
-        ParameterName = None
-    }
-    TextureParameterValues[3] =
-    {
-        ParameterInfo = { Name=Mask_Tex }
-        ParameterValue = None
-        ParameterName = None
-    }
-    TextureParameterValues[4] =
-    {
         ParameterInfo = { Name=UI_Tex_01 }
         ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_Icon002.T_Icon002'
         ParameterName = None
     }
-    TextureParameterValues[5] =
+    TextureParameterValues[3] =
     {
         ParameterInfo = { Name=Tex_Mask }
         ParameterValue = None
         ParameterName = None
     }
 }
-VectorParameterValues[6] =
+VectorParameterValues[4] =
 {
     VectorParameterValues[0] =
     {
@@ -219,18 +207,6 @@ VectorParameterValues[6] =
     }
     VectorParameterValues[3] =
     {
-        ParameterInfo = { Name=Color02 }
-        ParameterValue = { R=0, G=1.66667, B=5, A=0 }
-        ParameterName = None
-    }
-    VectorParameterValues[4] =
-    {
-        ParameterInfo = { Name=Panner }
-        ParameterValue = { R=0.5, G=0, B=-0.05, A=0.2 }
-        ParameterName = None
-    }
-    VectorParameterValues[5] =
-    {
         ParameterInfo = { Name=Sweeping color }
         ParameterValue = { R=0.3, G=0.21, B=0.21, A=1 }
         ParameterName = None
@@ -247,7 +223,7 @@ BasePropertyOverrides =
 }
 StaticParameters =
 {
-    StaticSwitchParameters[13] =
+    StaticSwitchParameters[12] =
     {
         StaticSwitchParameters[0] =
         {
@@ -264,64 +240,58 @@ StaticParameters =
         StaticSwitchParameters[2] =
         {
             Value = true
-            ParameterInfo = { Name=Use_DetailsMask02 }
-            bOverride = true
-        }
-        StaticSwitchParameters[3] =
-        {
-            Value = true
             ParameterInfo = { Name=Exoluminescence Switch }
             bOverride = true
         }
-        StaticSwitchParameters[4] =
+        StaticSwitchParameters[3] =
         {
             Value = false
             ParameterInfo = { Name=Aperture Switch }
             bOverride = true
         }
-        StaticSwitchParameters[5] =
+        StaticSwitchParameters[4] =
         {
             Value = true
             ParameterInfo = { Name=Float Switch }
             bOverride = true
         }
-        StaticSwitchParameters[6] =
+        StaticSwitchParameters[5] =
         {
             Value = true
             ParameterInfo = { Name=SphereMask_Switch }
             bOverride = true
         }
-        StaticSwitchParameters[7] =
+        StaticSwitchParameters[6] =
         {
             Value = true
             ParameterInfo = { Name=heartbeat }
             bOverride = true
         }
-        StaticSwitchParameters[8] =
+        StaticSwitchParameters[7] =
         {
             Value = true
             ParameterInfo = { Name=Use_SphereMask }
             bOverride = true
         }
-        StaticSwitchParameters[9] =
+        StaticSwitchParameters[8] =
         {
             Value = false
             ParameterInfo = { Name=Sweep Interval Switch }
             bOverride = true
         }
-        StaticSwitchParameters[10] =
+        StaticSwitchParameters[9] =
         {
             Value = true
             ParameterInfo = { Name=Sweep Switch }
             bOverride = true
         }
-        StaticSwitchParameters[11] =
+        StaticSwitchParameters[10] =
         {
             Value = false
             ParameterInfo = { Name=Sweep Switch Am }
             bOverride = true
         }
-        StaticSwitchParameters[12] =
+        StaticSwitchParameters[11] =
         {
             Value = false
             ParameterInfo = { Name=Tex mask }

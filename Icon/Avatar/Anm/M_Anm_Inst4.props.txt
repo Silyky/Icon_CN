@@ -127,7 +127,7 @@ TextureParameterValues[4] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=Details_Tex }
-        ParameterValue = None
+        ParameterValue = Texture2D'/Game/Resources/Effect/Textures/Masks/T_EnergyA001m.T_EnergyA001m'
         ParameterName = None
     }
     TextureParameterValues[1] =
