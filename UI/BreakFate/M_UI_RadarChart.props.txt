@@ -1,0 +1,120 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'/Engine/EngineResources/Gray.Gray' }
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=MinValue }
+                    ParameterInfos[1] = { Name=Point1Strength }
+                    ParameterInfos[2] = { Name=Scale }
+                    ParameterInfos[3] = { Name=Point2Strength }
+                    ParameterInfos[4] = { Name=Point3Strength }
+                    ParameterInfos[5] = { Name=Point5Strength }
+                    ParameterInfos[6] = { Name=Point4Strength }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Point1 }
+                    ParameterInfos[1] = { Name=Point2Point3 }
+                    ParameterInfos[2] = { Name=Color }
+                    ParameterInfos[3] = { Name=Point4Point5 }
+                    ParameterInfos[4] = { Name=LineColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Background }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0.2, 1, 0.833333, 0.6, 0.5, 0.6, 1 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.5, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=0.39, B=0.81, A=1 }
+            VectorValues[2] = { R=1, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.19, G=1, B=0, A=0.38 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[1] = { Texture2D'/Engine/EngineResources/Gray.Gray' }
+    }
+    ReferencedTextures[1] = { Texture2D'/Engine/EngineResources/Gray.Gray' }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/Gray.Gray'
+        Name = Background
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=MinValue, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Point1Strength, Group=None }
+    CollectedScalarParameters[2] = { Value=0.833333, Name=Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=0.6, Name=Point2Strength, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=Point3Strength, Group=None }
+    CollectedScalarParameters[5] = { Value=0.6, Name=Point5Strength, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Point4Strength, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0, B=0, A=0 }
+        Name = Point1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.39, B=0.81, A=1 }
+        Name = Point2Point3
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.19, G=1, B=0, A=0.38 }
+        Name = Point4Point5
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LineColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

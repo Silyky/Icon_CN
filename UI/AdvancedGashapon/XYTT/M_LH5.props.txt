@@ -1,0 +1,113 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA005.T_EnergyA005'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/AdvancedGashapon/XYTT/OranXYTT_R.OranXYTT_R'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=SpeedX }
+                    ParameterInfos[1] = { Name=offsetX }
+                    ParameterInfos[2] = { Name=VTiling }
+                    ParameterInfos[3] = { Name=UTiling }
+                    ParameterInfos[4] = { Name=SpeedY }
+                    ParameterInfos[5] = { Name=offsetY }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                    ParameterInfos[1] = { Name=Panner }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Base_Tex }
+                    ParameterInfos[1] = { Name=Mask_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0, 0, 1, 1, 0, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=5.20598, G=9.45926, B=15, A=0 }
+            VectorValues[1] = { R=4, G=1, B=0, A=0.1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/AdvancedGashapon/XYTT/OranXYTT_R.OranXYTT_R'
+            TextureValues[1] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA005.T_EnergyA005'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/AdvancedGashapon/XYTT/OranXYTT_R.OranXYTT_R'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA005.T_EnergyA005'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/AdvancedGashapon/XYTT/OranXYTT_R.OranXYTT_R'
+        Name = Base_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA005.T_EnergyA005'
+        Name = Mask_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=SpeedX, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=offsetX, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=VTiling, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=UTiling, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=SpeedY, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=offsetY, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=5.20598, G=9.45926, B=15, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=4, G=1, B=0, A=0.1 }
+        Name = Panner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
