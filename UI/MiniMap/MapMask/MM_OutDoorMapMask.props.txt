@@ -1,0 +1,182 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA001.T_EnergyA001'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/MiniMap/MapMask/mapmask_texture/mapmask_0.mapmask_0'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/MiniMap/T_MapMask_TileMask.T_MapMask_TileMask'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=Min }
+                    ParameterInfos[1] = { Name=DistanceSteps }
+                    ParameterInfos[2] = { Name=AddTexTillingScale_X }
+                    ParameterInfos[3] = { Name=TillingScale_Y }
+                    ParameterInfos[4] = { Name=Fire }
+                    ParameterInfos[5] = { Name=Distance_S }
+                    ParameterInfos[6] = { Name=IsRenderToRT }
+                    ParameterInfos[7] = { Name=Max }
+                    ParameterInfos[8] = { Name=RadialSteps }
+                    ParameterInfos[9] = { Name=RadialOffset }
+                    ParameterInfos[10] = { Name=Liangbian }
+                    ParameterInfos[11] = { Name=MainMoveScale }
+                    ParameterInfos[12] = { Name=AddTexTillingScale_Y }
+                    ParameterInfos[13] = { Name=TillingScale_X }
+                    ParameterInfos[14] = { Name=Edgewidth }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=EdgeColor }
+                    ParameterInfos[1] = { Name=AddColor }
+                    ParameterInfos[2] = { Name=UVDir }
+                    ParameterInfos[3] = { Name=MainColor }
+                    ParameterInfos[4] = { Name=UVOrigin }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MainTex }
+                    ParameterInfos[1] = { Name=FogBackTexture }
+                    ParameterInfos[2] = { Name=AddTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 4
+            ScalarValues[2] = 10
+            ScalarValues[3] = 18
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.0015
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = 4
+            ScalarValues[9] = 0.2
+            ScalarValues[10] = 0.008
+            ScalarValues[11] = 1
+            ScalarValues[12] = 18
+            ScalarValues[13] = 10
+            ScalarValues[14] = 0.2
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.162029, G=0.496933, B=0.921582, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0.021219, G=0.068478, B=0.114435, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/MiniMap/T_MapMask_TileMask.T_MapMask_TileMask'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/MiniMap/MapMask/mapmask_texture/mapmask_0.mapmask_0'
+            TextureValues[2] = Texture2D'/Game/Resources/UI/MiniMap/T_MapMask_TileMask.T_MapMask_TileMask'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/MiniMap/T_MapMask_TileMask.T_MapMask_TileMask'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA001.T_EnergyA001'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/UI/MiniMap/MapMask/mapmask_texture/mapmask_0.mapmask_0'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.5
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/MiniMap/T_MapMask_TileMask.T_MapMask_TileMask'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/MiniMap/MapMask/mapmask_texture/mapmask_0.mapmask_0'
+        Name = FogBackTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/MiniMap/T_MapMask_TileMask.T_MapMask_TileMask'
+        Name = AddTex
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Min, Group=None }
+    CollectedScalarParameters[1] = { Value=4, Name=DistanceSteps, Group=None }
+    CollectedScalarParameters[2] = { Value=10, Name=AddTexTillingScale_X, Group=None }
+    CollectedScalarParameters[3] = { Value=18, Name=TillingScale_Y, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Fire, Group=None }
+    CollectedScalarParameters[5] = { Value=0.0015, Name=Distance_S, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=IsRenderToRT, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=Max, Group=None }
+    CollectedScalarParameters[8] = { Value=4, Name=RadialSteps, Group=None }
+    CollectedScalarParameters[9] = { Value=0.2, Name=RadialOffset, Group=None }
+    CollectedScalarParameters[10] = { Value=0.008, Name=Liangbian, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MainMoveScale, Group=None }
+    CollectedScalarParameters[12] = { Value=18, Name=AddTexTillingScale_Y, Group=None }
+    CollectedScalarParameters[13] = { Value=10, Name=TillingScale_X, Group=None }
+    CollectedScalarParameters[14] = { Value=0.2, Name=Edgewidth, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.162029, G=0.496933, B=0.921582, A=1 }
+        Name = EdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = AddColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = UVDir
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.021219, G=0.068478, B=0.114435, A=1 }
+        Name = MainColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = UVOrigin
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
