@@ -1,0 +1,120 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_fire007.T_fire007'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/saishi/shouye/Oran_RedLogo.Oran_RedLogo'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Hue Shift Percentage (S) }
+                    ParameterInfos[1] = { Name=ShineSpeed }
+                    ParameterInfos[2] = { Name=Vector_V_Tile }
+                    ParameterInfos[3] = { Name=RotatorTime }
+                    ParameterInfos[4] = { Name=SpeedV }
+                    ParameterInfos[5] = { Name=Vector_U_Tile }
+                    ParameterInfos[6] = { Name=SpeedU }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Brightness }
+                    ParameterInfos[1] = { Name=MaskChannel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Tex01 }
+                    ParameterInfos[1] = { Name=ColorTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0, 0.01, 2, 0.1, -0.02, 2, -0.02 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/saishi/shouye/Oran_RedLogo.Oran_RedLogo'
+            TextureValues[1] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_fire007.T_fire007'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/saishi/shouye/Oran_RedLogo.Oran_RedLogo'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_fire007.T_fire007'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/saishi/shouye/Oran_RedLogo.Oran_RedLogo'
+        Name = Tex01
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Misc/T_fire007.T_fire007'
+        Name = ColorTex
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Hue Shift Percentage (S)
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.01, Name=ShineSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=Vector_V_Tile, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=RotatorTime, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.02, Name=SpeedV, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=Vector_U_Tile, Group=None }
+    CollectedScalarParameters[6] = { Value=-0.02, Name=SpeedU, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Brightness
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = MaskChannel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
