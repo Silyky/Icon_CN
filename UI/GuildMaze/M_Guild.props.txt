@@ -1,0 +1,141 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA007.T_EnergyA007'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyB002.T_EnergyB002'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/GuildMaze/qukuai_011.qukuai_011'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=RingGlow_SM03_power }
+                    ParameterInfos[1] = { Name=Tex001_Power }
+                    ParameterInfos[2] = { Name=RingGlow_SM03_Stength }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Tex002_Panner }
+                    ParameterInfos[1] = { Name=Tex001_Panner }
+                    ParameterInfos[2] = { Name=UVs002 }
+                    ParameterInfos[3] = { Name=UVs001 }
+                    ParameterInfos[4] = { Name=PanerColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=tex002 }
+                    ParameterInfos[1] = { Name=BaseColor }
+                    ParameterInfos[2] = { Name=Tex001 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 10, 1, 1 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[1] = { R=0, G=-0.5, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=0, A=1 }
+            VectorValues[3] = { R=2, G=0.5, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA007.T_EnergyA007'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/GuildMaze/qukuai_011.qukuai_011'
+            TextureValues[2] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyB002.T_EnergyB002'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyB002.T_EnergyB002'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA007.T_EnergyA007'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/UI/GuildMaze/qukuai_011.qukuai_011'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyA007.T_EnergyA007'
+        Name = tex002
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/GuildMaze/qukuai_011.qukuai_011'
+        Name = BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Energy/T_EnergyB002.T_EnergyB002'
+        Name = Tex001
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=RingGlow_SM03_power, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Tex001_Power, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=RingGlow_SM03_Stength, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = Tex002_Panner
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=-0.5, B=0, A=1 }
+        Name = Tex001_Panner
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = UVs002
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=2, G=0.5, B=0, A=1 }
+        Name = UVs001
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = PanerColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

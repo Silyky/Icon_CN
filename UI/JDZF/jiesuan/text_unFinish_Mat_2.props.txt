@@ -1,0 +1,251 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Noise003.T_Noise003'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish.text_unFinish'
+    ReferencedTextures[3] = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish_bg.text_unFinish_bg'
+    ReferencedTextures[4] = Texture2D'/Game/Resources/UI/main/btn_auto2_Mask.btn_auto2_Mask'
+    ReferencedTextures[5] = Texture2D'/Game/Resources/UI/monster/T_UI_sword_02.T_UI_sword_02'
+    ReferencedTextures[6] = Texture2D'/Game/Resources/UI/monster/T_UI_sword_03.T_UI_sword_03'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=Rotator_Speed }
+                    ParameterInfos[1] = { Name=SpeedX }
+                    ParameterInfos[2] = { Name=offsetX }
+                    ParameterInfos[3] = { Name=UI_Tex_Back_Speed }
+                    ParameterInfos[4] = { Name=UI_Tex_Speed }
+                    ParameterInfos[5] = { Name=Rotator }
+                    ParameterInfos[6] = { Name=NoiseIntensity }
+                    ParameterInfos[7] = { Name=UI_Tex_Rotator }
+                    ParameterInfos[8] = { Name=UI_Tex_Back_Size }
+                    ParameterInfos[9] = { Name=UI_Tex_Range }
+                    ParameterInfos[10] = { Name=UI_Tex1_Rotator }
+                    ParameterInfos[11] = { Name=VTiling }
+                    ParameterInfos[12] = { Name=Mask_V }
+                    ParameterInfos[13] = { Name=Tex_Power }
+                    ParameterInfos[14] = { Name=UI_Tex2_Rotator }
+                    ParameterInfos[15] = { Name=UI_Tex_Size }
+                    ParameterInfos[16] = { Name=UI_Tex_Back_Range }
+                    ParameterInfos[17] = { Name=UTiling }
+                    ParameterInfos[18] = { Name=UI_Tex_Back_Rotator }
+                    ParameterInfos[19] = { Name=Mask_U }
+                    ParameterInfos[20] = { Name=SpeedY }
+                    ParameterInfos[21] = { Name=offsetY }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NoisePanner }
+                    ParameterInfos[1] = { Name=Light_color }
+                    ParameterInfos[2] = { Name=Speed }
+                    ParameterInfos[3] = { Name=Dark_color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=ContourLightTex }
+                    ParameterInfos[1] = { Name=UI_Tex_Back }
+                    ParameterInfos[2] = { Name=Param }
+                    ParameterInfos[3] = { Name=UI_Tex1 }
+                    ParameterInfos[4] = { Name=UI_Tex2 }
+                    ParameterInfos[5] = { Name=NoiseMask }
+                    ParameterInfos[6] = { Name=ContourmaskTex }
+                    ParameterInfos[7] = { Name=NoiseMap }
+                    ParameterInfos[8] = { Name=UI_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 1
+            ScalarValues[5] = -0.9
+            ScalarValues[6] = 0.05
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 10
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1.5
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 14
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0.1, A=0 }
+            VectorValues[1] = { R=1.97917, G=4.79057, B=5, A=0.5 }
+            VectorValues[2] = { R=0, G=2, B=0.6, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/main/btn_auto2_Mask.btn_auto2_Mask'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish_bg.text_unFinish_bg'
+            TextureValues[2] = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish.text_unFinish'
+            TextureValues[3] = Texture2D'/Game/Resources/UI/monster/T_UI_sword_03.T_UI_sword_03'
+            TextureValues[4] = Texture2D'/Game/Resources/UI/monster/T_UI_sword_02.T_UI_sword_02'
+            TextureValues[5] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+            TextureValues[6] = Texture2D'/Game/Resources/UI/main/btn_auto2_Mask.btn_auto2_Mask'
+            TextureValues[7] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Noise003.T_Noise003'
+            TextureValues[8] = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish.text_unFinish'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish.text_unFinish'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/main/btn_auto2_Mask.btn_auto2_Mask'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Noise003.T_Noise003'
+        ReferencedTextures[3] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+        ReferencedTextures[4] = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish_bg.text_unFinish_bg'
+        ReferencedTextures[5] = Texture2D'/Game/Resources/UI/monster/T_UI_sword_03.T_UI_sword_03'
+        ReferencedTextures[6] = Texture2D'/Game/Resources/UI/monster/T_UI_sword_02.T_UI_sword_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/main/btn_auto2_Mask.btn_auto2_Mask'
+        Name = ContourLightTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish_bg.text_unFinish_bg'
+        Name = UI_Tex_Back
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish.text_unFinish'
+        Name = Param
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/monster/T_UI_sword_03.T_UI_sword_03'
+        Name = UI_Tex1
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/monster/T_UI_sword_02.T_UI_sword_02'
+        Name = UI_Tex2
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Cowcatcher_TrailMask.T_Cowcatcher_TrailMask'
+        Name = NoiseMask
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/main/btn_auto2_Mask.btn_auto2_Mask'
+        Name = ContourmaskTex
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Noise003.T_Noise003'
+        Name = NoiseMap
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/JDZF/jiesuan/text_unFinish.text_unFinish'
+        Name = UI_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Rotator_Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=SpeedX, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=offsetX, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=UI_Tex_Back_Speed, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=UI_Tex_Speed, Group=None }
+    CollectedScalarParameters[5] = { Value=-0.9, Name=Rotator, Group=None }
+    CollectedScalarParameters[6] = { Value=0.05, Name=NoiseIntensity, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=UI_Tex_Rotator, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=UI_Tex_Back_Size, Group=None }
+    CollectedScalarParameters[9] = { Value=10, Name=UI_Tex_Range, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=UI_Tex1_Rotator, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=VTiling, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Mask_V, Group=None }
+    CollectedScalarParameters[13] = { Value=1.5, Name=Tex_Power, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=UI_Tex2_Rotator, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=UI_Tex_Size, Group=None }
+    CollectedScalarParameters[16] = { Value=14, Name=UI_Tex_Back_Range, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=UTiling, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=UI_Tex_Back_Rotator, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Mask_U, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=SpeedY, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=offsetY, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0.1, A=0 }
+        Name = NoisePanner
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1.97917, G=4.79057, B=5, A=0.5 }
+        Name = Light_color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=2, B=0.6, A=0 }
+        Name = Speed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Dark_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
