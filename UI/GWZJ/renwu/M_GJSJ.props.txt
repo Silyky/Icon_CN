@@ -1,0 +1,145 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask015UI.T_Mask015UI'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Vert_Gradient_Softer_Clamped.T_Vert_Gradient_Softer_Clamped'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/GWZJ/juanxian/TJHY_TB_di_1.TJHY_TB_di_1'
+    ReferencedTextures[3] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GWZJ_ANWEN_logo_01.GWZJ_ANWEN_logo_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Rotator }
+                    ParameterInfos[1] = { Name=Line01_Stength }
+                    ParameterInfos[2] = { Name=Line01_Speed }
+                    ParameterInfos[3] = { Name=Time }
+                    ParameterInfos[4] = { Name=Opacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Line02 }
+                    ParameterInfos[1] = { Name=Color02 }
+                    ParameterInfos[2] = { Name=Color01 }
+                    ParameterInfos[3] = { Name=T_Tex02Panner }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=T_Tex01 }
+                    ParameterInfos[1] = { Name=T_Tex02 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 6.25, 1, 0, 6.25, 1 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=0.3, B=0, A=0.05 }
+            VectorValues[1] = { R=1.5, G=2, B=3, A=1 }
+            VectorValues[2] = { R=0.06, G=0.16, B=0.3, A=1 }
+            VectorValues[3] = { R=1.5, G=1.64639, B=-0.219048, A=-0.324625 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/GWZJ/juanxian/TJHY_TB_di_1.TJHY_TB_di_1'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GWZJ_ANWEN_logo_01.GWZJ_ANWEN_logo_01'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GWZJ_ANWEN_logo_01.GWZJ_ANWEN_logo_01'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/GWZJ/juanxian/TJHY_TB_di_1.TJHY_TB_di_1'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Vert_Gradient_Softer_Clamped.T_Vert_Gradient_Softer_Clamped'
+        ReferencedTextures[3] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask015UI.T_Mask015UI'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/GWZJ/juanxian/TJHY_TB_di_1.TJHY_TB_di_1'
+        Name = T_Tex01
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/GWZJ/renwu/GWZJ_ANWEN_logo_01.GWZJ_ANWEN_logo_01'
+        Name = T_Tex02
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=6.25, Name=Rotator, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Line01_Stength, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Line01_Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=6.25, Name=Time, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.3, B=0, A=0.05 }
+        Name = Line02
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1.5, G=2, B=3, A=1 }
+        Name = Color02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.06, G=0.16, B=0.3, A=1 }
+        Name = Color01
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1.5, G=1.64639, B=-0.219048, A=-0.324625 }
+        Name = T_Tex02Panner
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.296875
+        UVChannelIndex = 0
+        TextureName = T_Mask015UI
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Vert_Gradient_Softer_Clamped
+    }
+}

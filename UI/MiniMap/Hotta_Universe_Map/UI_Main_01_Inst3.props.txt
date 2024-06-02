@@ -4,7 +4,7 @@ ScalarParameterValues[4] =
     ScalarParameterValues[0] =
     {
         ParameterInfo = { Name=RotatorSpeed }
-        ParameterValue = -0.2
+        ParameterValue = -0.4
         ParameterName = None
     }
     ScalarParameterValues[1] =
@@ -35,9 +35,15 @@ TextureParameterValues[1] =
         ParameterName = None
     }
 }
-VectorParameterValues[1] =
+VectorParameterValues[2] =
 {
     VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.3, G=0.7, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
     {
         ParameterInfo = { Name=Sweeping color }
         ParameterValue = { R=0, G=0, B=0, A=1 }

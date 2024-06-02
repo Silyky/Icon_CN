@@ -4,7 +4,7 @@ ScalarParameterValues[2] =
     ScalarParameterValues[0] =
     {
         ParameterInfo = { Name=RotatorSpeed }
-        ParameterValue = 0.1
+        ParameterValue = 0.25
         ParameterName = None
     }
     ScalarParameterValues[1] =
@@ -23,7 +23,15 @@ TextureParameterValues[1] =
         ParameterName = None
     }
 }
-VectorParameterValues[0] = {}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.2, G=0.5, B=1, A=0.5 }
+        ParameterName = None
+    }
+}
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

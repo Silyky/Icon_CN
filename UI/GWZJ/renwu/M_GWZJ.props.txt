@@ -1,0 +1,80 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01.GJSJ_anniu_01'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01L.GJSJ_anniu_01L'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                    ParameterInfos[1] = { Name=Progress }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Tex01 }
+                    ParameterInfos[1] = { Name=Tex02 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 0, 0 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01.GJSJ_anniu_01'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01L.GJSJ_anniu_01L'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01L.GJSJ_anniu_01L'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01.GJSJ_anniu_01'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01.GJSJ_anniu_01'
+        Name = Tex01
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/GWZJ/renwu/GJSJ_anniu_01L.GJSJ_anniu_01L'
+        Name = Tex02
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Progress, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

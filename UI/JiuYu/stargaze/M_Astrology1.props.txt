@@ -1,10 +1,11 @@
 TwoSided = false
 bDisableDepthTest = false
 bIsMasked = false
-ReferencedTextures[2] =
+ReferencedTextures[3] =
 {
-    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_starry002.T_starry002'
-    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/JiuYu/stargaze/stargaze2.stargaze2'
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask020.T_Mask020'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_starry002.T_starry002'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/JiuYu/stargaze/stargaze2.stargaze2'
 }
 Expressions[0] = {}
 CachedExpressionData =
@@ -15,18 +16,20 @@ CachedExpressionData =
         {
             Entries[0] =
             {
-                ParameterInfos[10] =
+                ParameterInfos[12] =
                 {
                     ParameterInfos[0] = { Name=Hue Shift Percentage (S) }
                     ParameterInfos[1] = { Name=Exp }
                     ParameterInfos[2] = { Name=ShineSpeed }
-                    ParameterInfos[3] = { Name=Radius }
-                    ParameterInfos[4] = { Name=Vector_V_Tile }
-                    ParameterInfos[5] = { Name=RotatorTime }
-                    ParameterInfos[6] = { Name=Hardness }
-                    ParameterInfos[7] = { Name=SpeedV }
-                    ParameterInfos[8] = { Name=Vector_U_Tile }
-                    ParameterInfos[9] = { Name=SpeedU }
+                    ParameterInfos[3] = { Name=Tex01_V_Tile }
+                    ParameterInfos[4] = { Name=Radius }
+                    ParameterInfos[5] = { Name=Vector_V_Tile }
+                    ParameterInfos[6] = { Name=RotatorTime }
+                    ParameterInfos[7] = { Name=Hardness }
+                    ParameterInfos[8] = { Name=Tex01_U_Tile }
+                    ParameterInfos[9] = { Name=SpeedV }
+                    ParameterInfos[10] = { Name=Vector_U_Tile }
+                    ParameterInfos[11] = { Name=SpeedU }
                 }
             }
             Entries[1] =
@@ -39,36 +42,39 @@ CachedExpressionData =
             }
             Entries[2] =
             {
-                ParameterInfos[2] =
+                ParameterInfos[3] =
                 {
                     ParameterInfos[0] = { Name=Tex01 }
-                    ParameterInfos[1] = { Name=ColorTex }
+                    ParameterInfos[1] = { Name=MaskTex }
+                    ParameterInfos[2] = { Name=ColorTex }
                 }
             }
             Entries[3] = { ParameterInfos[0]={} }
             Entries[4] = { ParameterInfos[0]={} }
         }
-        ScalarValues[10] = { 0, 1, 1, 1, 1, 0.1, 10, -0.05, 4, 0 }
+        ScalarValues[12] = { 0, 1, 1, 1, 1, 1, 0.1, 10, 1, -0.05, 4, 0 }
         VectorValues[2] =
         {
             VectorValues[0] = { R=1, G=1, B=1, A=0 }
             VectorValues[1] = { R=0, G=0, B=0, A=1 }
         }
-        TextureValues[2] =
+        TextureValues[3] =
         {
             TextureValues[0] = Texture2D'/Game/Resources/UI/JiuYu/stargaze/stargaze2.stargaze2'
-            TextureValues[1] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_starry002.T_starry002'
+            TextureValues[1] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask020.T_Mask020'
+            TextureValues[2] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_starry002.T_starry002'
         }
     }
-    ReferencedTextures[2] =
+    ReferencedTextures[3] =
     {
         ReferencedTextures[0] = Texture2D'/Game/Resources/UI/JiuYu/stargaze/stargaze2.stargaze2'
         ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Misc/T_starry002.T_starry002'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask020.T_Mask020'
     }
 }
 BlendMode = BLEND_Additive (3)
 OpacityMaskClipValue = 0.333
-CollectedTextureParameters[2] =
+CollectedTextureParameters[3] =
 {
     CollectedTextureParameters[0] =
     {
@@ -78,12 +84,18 @@ CollectedTextureParameters[2] =
     }
     CollectedTextureParameters[1] =
     {
+        Texture = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask020.T_Mask020'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
         Texture = Texture2D'/Game/Resources/Effect/Textures/Misc/T_starry002.T_starry002'
         Name = ColorTex
         Group = None
     }
 }
-CollectedScalarParameters[10] =
+CollectedScalarParameters[12] =
 {
     CollectedScalarParameters[0] =
     {
@@ -93,13 +105,15 @@ CollectedScalarParameters[10] =
     }
     CollectedScalarParameters[1] = { Value=1, Name=Exp, Group=None }
     CollectedScalarParameters[2] = { Value=1, Name=ShineSpeed, Group=None }
-    CollectedScalarParameters[3] = { Value=1, Name=Radius, Group=None }
-    CollectedScalarParameters[4] = { Value=1, Name=Vector_V_Tile, Group=None }
-    CollectedScalarParameters[5] = { Value=0.1, Name=RotatorTime, Group=None }
-    CollectedScalarParameters[6] = { Value=10, Name=Hardness, Group=None }
-    CollectedScalarParameters[7] = { Value=-0.05, Name=SpeedV, Group=None }
-    CollectedScalarParameters[8] = { Value=4, Name=Vector_U_Tile, Group=None }
-    CollectedScalarParameters[9] = { Value=0, Name=SpeedU, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Tex01_V_Tile, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Vector_V_Tile, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=RotatorTime, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=Hardness, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Tex01_U_Tile, Group=None }
+    CollectedScalarParameters[9] = { Value=-0.05, Name=SpeedV, Group=None }
+    CollectedScalarParameters[10] = { Value=4, Name=Vector_U_Tile, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=SpeedU, Group=None }
 }
 CollectedVectorParameters[2] =
 {

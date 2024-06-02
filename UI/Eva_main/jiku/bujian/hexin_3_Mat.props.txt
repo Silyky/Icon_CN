@@ -1,0 +1,149 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB01.eva_circleB01'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB02.eva_circleB02'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB03.eva_circleB03'
+    ReferencedTextures[3] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB04.eva_circleB04'
+    ReferencedTextures[4] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/hexin_3.hexin_3'
+    ReferencedTextures[5] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/hexin_bg.hexin_bg'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Min }
+                    ParameterInfos[1] = { Name=brightness }
+                    ParameterInfos[2] = { Name=Speed_V }
+                    ParameterInfos[3] = { Name=Rotator }
+                    ParameterInfos[4] = { Name=Rot_Speed3 }
+                    ParameterInfos[5] = { Name=Rot_Speed4 }
+                    ParameterInfos[6] = { Name=Max }
+                    ParameterInfos[7] = { Name=Rot_Speed2 }
+                    ParameterInfos[8] = { Name=Rot_Speed }
+                    ParameterInfos[9] = { Name=Sweep Wide }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=UVsOffset2 }
+                    ParameterInfos[1] = { Name=UVsOffset }
+                    ParameterInfos[2] = { Name=UVsOffset4 }
+                    ParameterInfos[3] = { Name=UVsOffset3 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Sweep_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] =
+        {
+            ScalarValues[0] = -0.7
+            ScalarValues[1] = 3.5
+            ScalarValues[2] = -1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0.15
+            ScalarValues[5] = -0.1
+            ScalarValues[6] = 0.4
+            ScalarValues[7] = -0.1
+            ScalarValues[8] = 0.05
+            ScalarValues[9] = 0.04
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=2.2, G=1, B=-0.761905, A=-0.025715 }
+            VectorValues[1] = { R=2, G=1, B=-0.7, A=-0.055 }
+            VectorValues[2] = { R=2.2, G=1.1, B=-0.66, A=-0.037143 }
+            VectorValues[3] = { R=2, G=1, B=-0.55, A=0.0105 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/hexin_bg.hexin_bg'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/hexin_3.hexin_3'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB01.eva_circleB01'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB02.eva_circleB02'
+        ReferencedTextures[3] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB03.eva_circleB03'
+        ReferencedTextures[4] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_circleB04.eva_circleB04'
+        ReferencedTextures[5] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/hexin_bg.hexin_bg'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/hexin_bg.hexin_bg'
+        Name = Sweep_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=-0.7, Name=Min, Group=None }
+    CollectedScalarParameters[1] = { Value=3.5, Name=brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=-1, Name=Speed_V, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Rotator, Group=None }
+    CollectedScalarParameters[4] = { Value=0.15, Name=Rot_Speed3, Group=None }
+    CollectedScalarParameters[5] = { Value=-0.1, Name=Rot_Speed4, Group=None }
+    CollectedScalarParameters[6] = { Value=0.4, Name=Max, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.1, Name=Rot_Speed2, Group=None }
+    CollectedScalarParameters[8] = { Value=0.05, Name=Rot_Speed, Group=None }
+    CollectedScalarParameters[9] = { Value=0.04, Name=Sweep Wide, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2.2, G=1, B=-0.761905, A=-0.025715 }
+        Name = UVsOffset2
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=1, B=-0.7, A=-0.055 }
+        Name = UVsOffset
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2.2, G=1.1, B=-0.66, A=-0.037143 }
+        Name = UVsOffset4
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=2, G=1, B=-0.55, A=0.0105 }
+        Name = UVsOffset3
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -25,7 +25,7 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_Tex_01 }
-        ParameterValue = Texture2D'/Game/Resources/UI/chouka/puchi/award__03.award__03'
+        ParameterValue = Texture2D'/Game/Resources/UI/chouka/puchi/award_04.award_04'
         ParameterName = None
     }
 }

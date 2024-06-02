@@ -1,0 +1,115 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask015UI.T_Mask015UI'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_zhongren.eva_zhongren'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/zhongren_1.zhongren_1'
+    ReferencedTextures[3] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/zhongren_bg.zhongren_bg'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Min }
+                    ParameterInfos[1] = { Name=brightness }
+                    ParameterInfos[2] = { Name=Speed_V }
+                    ParameterInfos[3] = { Name=Rotator }
+                    ParameterInfos[4] = { Name=LightPower }
+                    ParameterInfos[5] = { Name=Max }
+                    ParameterInfos[6] = { Name=Shiny }
+                    ParameterInfos[7] = { Name=ResPower }
+                    ParameterInfos[8] = { Name=Sweep Wide }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=UVsOffset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Sweep_Tex }
+                    ParameterInfos[1] = { Name=UI_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { -0.7, 9, -1, 1, 1, 0.6, 2, 1, 0.04 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1.28, G=1.22, B=-0.147619, A=-0.216904 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/zhongren_bg.zhongren_bg'
+            TextureValues[1] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_zhongren.eva_zhongren'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/zhongren_1.zhongren_1'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/zhongren_bg.zhongren_bg'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_zhongren.eva_zhongren'
+        ReferencedTextures[3] = Texture2D'/Game/Resources/Effect/Textures/Masks/T_Mask015UI.T_Mask015UI'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/zhongren_bg.zhongren_bg'
+        Name = Sweep_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/Eva_main/jiku/bujian/eva_zhongren.eva_zhongren'
+        Name = UI_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=-0.7, Name=Min, Group=None }
+    CollectedScalarParameters[1] = { Value=9, Name=brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=-1, Name=Speed_V, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Rotator, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=LightPower, Group=None }
+    CollectedScalarParameters[5] = { Value=0.6, Name=Max, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=Shiny, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=ResPower, Group=None }
+    CollectedScalarParameters[8] = { Value=0.04, Name=Sweep Wide, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.28, G=1.22, B=-0.147619, A=-0.216904 }
+        Name = UVsOffset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

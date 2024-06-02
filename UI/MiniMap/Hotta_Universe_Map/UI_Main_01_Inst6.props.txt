@@ -19,11 +19,19 @@ TextureParameterValues[1] =
     TextureParameterValues[0] =
     {
         ParameterInfo = { Name=UI_Tex_01 }
-        ParameterValue = Texture2D'/Game/Resources/UI/MiniMap/Hotta_Universe_Map/T_Main_05.T_Main_05'
+        ParameterValue = Texture2D'/Game/Resources/UI/MiniMap/Hotta_Universe_Map/Ora_15.Ora_15'
         ParameterName = None
     }
 }
-VectorParameterValues[0] = {}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color }
+        ParameterValue = { R=0.3, G=0.6, B=1, A=1 }
+        ParameterName = None
+    }
+}
 BasePropertyOverrides =
 {
     bOverride_BlendMode = false

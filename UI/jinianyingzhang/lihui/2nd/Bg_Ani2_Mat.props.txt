@@ -1,0 +1,74 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_Soft_Noise.T_Soft_Noise'
+    ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Tiles027.T_Tiles027'
+    ReferencedTextures[2] = Texture2D'/Game/Resources/UI/jinianyingzhang/lihui/2nd/Bg_Ani2.Bg_Ani2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Twist Power }
+                    ParameterInfos[1] = { Name=Twist UV }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=UI_TEX }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 0.3, 1 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Resources/UI/jinianyingzhang/lihui/2nd/Bg_Ani2.Bg_Ani2'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Resources/UI/jinianyingzhang/lihui/2nd/Bg_Ani2.Bg_Ani2'
+        ReferencedTextures[1] = Texture2D'/Game/Resources/Effect/Textures/Energy/T_Soft_Noise.T_Soft_Noise'
+        ReferencedTextures[2] = Texture2D'/Game/Resources/Effect/Textures/Tiles/T_Tiles027.T_Tiles027'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Resources/UI/jinianyingzhang/lihui/2nd/Bg_Ani2.Bg_Ani2'
+        Name = UI_TEX
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=Twist Power, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Twist UV, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
