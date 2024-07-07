@@ -175,13 +175,13 @@ TextureParameterValues[5] =
     TextureParameterValues[1] =
     {
         ParameterInfo = { Name=Details_Mask }
-        ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_MaskIcon046.T_MaskIcon046'
+        ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_MaskIcon045.T_MaskIcon045'
         ParameterName = None
     }
     TextureParameterValues[2] =
     {
         ParameterInfo = { Name=UI_Tex_01 }
-        ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_Icon046_03.T_Icon046_03'
+        ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_Icon045_03.T_Icon045_03'
         ParameterName = None
     }
     TextureParameterValues[3] =
@@ -193,7 +193,7 @@ TextureParameterValues[5] =
     TextureParameterValues[4] =
     {
         ParameterInfo = { Name=BaseTex02 }
-        ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_Icon046_01.T_Icon046_01'
+        ParameterValue = Texture2D'/Game/Resources/Icon/Avatar/Anm/T_Icon045_01.T_Icon045_01'
         ParameterName = None
     }
 }

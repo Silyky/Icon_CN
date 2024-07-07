@@ -1,7 +1,7 @@
-Diffuse=T_Icon046_01
+Diffuse=T_Icon045_01
 Other[0]=T_EnergyA001m
-Other[1]=T_MaskIcon046
-Other[2]=T_Icon046_03
+Other[1]=T_MaskIcon045
+Other[2]=T_Icon045_03
 Other[3]=DefaultDiffuse
 Other[4]=DefaultTexture
 Other[5]=DebugNumberStrip
